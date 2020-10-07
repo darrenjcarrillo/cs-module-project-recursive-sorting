@@ -11,7 +11,7 @@ def binary_search(arr, target, start, end):
     if start > end:
         return -1
 
-    # calculate the index by adding high and low and floor divide by 2 --> floor division results in a whole number.
+    # calculate the index by adding start and end and floor divide by 2 --> floor division results in a whole number.
     mid = (start + end) // 2
     # check if mid index is equal to the target
     if arr[mid] == target:
